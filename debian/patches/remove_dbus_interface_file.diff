@@ -1,0 +1,27 @@
+Index: khtml-4.95.0/src/CMakeLists.txt
+===================================================================
+--- khtml-4.95.0.orig/src/CMakeLists.txt	2014-01-30 16:44:58.000000000 +0000
++++ khtml-4.95.0/src/CMakeLists.txt	2014-01-30 17:46:37.635177501 +0000
+@@ -527,10 +527,11 @@
+    ${decoders_STAT_SRCS}
+    ${khtmlgraphics_STAT_SRCS} # for WebCore compatibility
+    ${khtmlsvg_STAT_SRCS} # for SVG
+-   ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KHtmlPart.xml # just so that it gets generated
++   #   ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KHtmlPart.xml # just so that it gets generated
+    )
+ 
+-qt5_generate_dbus_interface(khtml_iface.h org.kde.KHtmlPart.xml)
++# Fairly certain this isn't used anywhere
++# qt5_generate_dbus_interface(khtml_iface.h org.kde.KHtmlPart.xml)
+ 
+ if(kdelibs_SOURCE_DIR)
+     qt5_generate_dbus_interface(${CMAKE_SOURCE_DIR}/tier3/kio/src/ioslaves/http/kcookiejar/kcookieserver.h org.kde.KCookieServer.xml)
+@@ -792,7 +793,7 @@
+          khtmladaptorpart.desktop DESTINATION  ${SERVICES_INSTALL_DIR} )
+ install(FILES khtml.rc khtml_browser.rc  DESTINATION  ${DATA_INSTALL_DIR}/khtml )
+ 
+-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KHtmlPart.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR} )
++# install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KHtmlPart.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR} )
+ 
+ install(FILES error.html DESTINATION ${DATA_INSTALL_DIR}/khtml )
+ 

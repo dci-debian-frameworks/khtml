@@ -1,0 +1,145 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: khtml
+Source: https://projects.kde.org/projects/frameworks/khtml
+
+Files: *
+Copyright: 1997 Martin Jones (mjones@kde.org)
+           1998, 1999 Torben Weis <weis@kde.org>
+           1998-2003 Lars Knoll (knoll@mpi-hd.mpg.de)
+           1999-2003 Harri Porten (porten@kde.org)
+           1999 Antti Koivisto (koivisto@kde.org)
+           1999-2003 David Faure <faure@kde.org>
+           1999-2000 Waldo Bastian (bastian@kde.org)
+           2000-2003 Dirk Mueller <mueller@kde.org>
+           2000-2003 Simon Hausmann <hausmann@kde.org>
+           2000 Frederik Holljen <frederik.holljen@hig.no>
+           2000 Gunnstein Lye <gunnstein@netcom.no>
+           2000-2001 Peter Kelly (pmk@post.com)
+           2000 Richard Moore <rich@kde.org>
+           2000 Simon Hausmann <hausmann@kde.org>
+           2000 W3C (MIT, INRIA, Keio)
+           2000 Wynn Wilkes <wynnw@caldera.com>
+           2001 Andreas Schlapbach (schlpbch@iam.unibe.ch)
+           2001 Antti Koivisto (koivisto@kde.org)
+           2001 George Staikos <staikos@kde.org>
+           2002-2008 Apple Computer, Inc.
+           2002 Stephan Kulow <coolo@kde.org>
+           2002 Till Krech <till@snafu.de>
+           2003 Germain Garand <germain@ebooksfrance.org>
+           2003 Koos Vriezen <koos.vriezen@xs4all.nl>
+           2004, 2005, 2006, 2007, 2008 Nikolas Zimmermann <zimmermann@kde.org>
+           2004, 2005, 2006 Rob Buis <buis@kde.org>
+           2004-2005 Allan Sandfeld Jensen (kde@carewolf.com)
+           2004 Leo Savernik <l.savernik@aon.at>
+           2004  Zack Rusin <zack@kde.org>
+           2005, 2005 Alexander Kellett <lypanov@kde.org>
+           2005 Anders Carlsson (andersca@mac.com)
+           2005 Frerich Raabe <raabe@kde.org>
+           2005 Ivor Hewitt     <ivor@kde.org>
+           2005-2009 Maksim Orlovich (maksim@kde.org)
+           2006 Alexey Proskuryakov <ap@webkit.org>
+           2006 Oliver Hunt <oliver@nerget.com>
+           2006 Samuel Weinig <sam.weinig@gmail.com>
+           2008 Vyacheslav Tokarev <tsjoker@gmail.com>
+           2009 Eduardo Robles Elvira <edulix at gmail dot com>
+           2009 Mozilla Corporation
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ On Debian systems, the complete text of the
+ GNU Library General Public License version 2 can be found in
+ /usr/share/common-licenses/LGPL-2
+
+Files: src/svg/*
+       src/xpath/*
+       src/html/HTMLAudioElement.cpp
+       src/html/HTMLAudioElement.h
+       src/html/html_canvasimpl.cpp
+       src/html/html_canvasimpl.h
+       src/html/HTMLMediaElement.cpp
+       src/html/HTMLMediaElement.h
+       src/html/htmlprospectivetokenizer.cpp
+       src/html/htmlprospectivetokenizer.h
+       src/html/HTMLSourceElement.cpp
+       src/html/HTMLSourceElement.h
+       src/html/HTMLVideoElement.cpp
+       src/html/HTMLVideoElement.h
+       src/html/MediaError.h
+       src/html/TimeRanges.cpp
+       src/html/TimeRanges.h 
+       src/xml/dom*
+       src/platform/graphics/*
+       src/css/css_mediaquery.h
+       src/css/css_mediaquery.cpp
+       src/css/css_webfont.h
+       src/css/css_webfont.cpp
+Copyright: 2004,2005 Maks Orlovich <maksim@kde.org>
+License: BSD 2 clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY APPLE COMPUTER, INC. ``AS IS'' AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL APPLE COMPUTER, INC. OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: imload/*
+Copyright: 2004,2005 Maks Orlovich <maksim@kde.org>
+License: X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: debian/*
+Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ 
