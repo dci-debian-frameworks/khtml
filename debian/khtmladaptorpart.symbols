@@ -1,0 +1,17 @@
+# SymbolsHelper-Confirmed: 4.96.0 amd64
+khtmladaptorpart.so libkmultipart #MINVER#
+ _ZN3KJS6JSCell4markEv@Base 4.96.0
+ _ZN3KJS6JSCellD0Ev@Base 4.96.0
+ _ZN3KJS6JSCellD1Ev@Base 4.96.0
+ _ZN3KJS6JSCellD2Ev@Base 4.96.0
+ _ZN3KJS7JSValueD0Ev@Base 4.96.0
+ _ZN3KJS7JSValueD1Ev@Base 4.96.0
+ _ZN3KJS7JSValueD2Ev@Base 4.96.0
+ _ZTIN14WTFNoncopyable11NoncopyableE@Base 4.96.0
+ _ZTIN3KJS6JSCellE@Base 4.96.0
+ _ZTIN3KJS7JSValueE@Base 4.96.0
+ _ZTSN14WTFNoncopyable11NoncopyableE@Base 4.96.0
+ _ZTSN3KJS6JSCellE@Base 4.96.0
+ _ZTSN3KJS7JSValueE@Base 4.96.0
+ _ZTVN3KJS6JSCellE@Base 4.96.0
+ _ZTVN3KJS7JSValueE@Base 4.96.0
