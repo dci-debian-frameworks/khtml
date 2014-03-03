@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5KHtml.so.4 libkf5khtml4 #MINVER#
+libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
  _ZN10KSSLKeyGen11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
