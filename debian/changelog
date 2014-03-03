@@ -1,11 +1,11 @@
-khtml (4.96.0-0ubuntu1) UNRELEASED; urgency=low
+khtml (4.96.0-0ubuntu1) trusty; urgency=low
 
   * New upstream alpha release
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 26 Feb 2014 03:05:05 -0800
 
 
-khtml (4.95.0-0ubuntu1) UNRELEASED; urgency=low
+khtml (4.95.0-0ubuntu1) trusty; urgency=low
 
   * Initial release
   * Add remove_dbus_interface_file.diff from upstream
