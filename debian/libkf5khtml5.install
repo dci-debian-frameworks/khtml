@@ -4,3 +4,4 @@ usr/share/kjava/
 usr/share/kde5/services/
 usr/share/kde5/config/
 usr/share/khtml/
+usr/lib/*/libKF5KHtml.so.5
