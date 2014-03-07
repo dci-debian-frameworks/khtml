@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.11), qtbase5-dev, libphonon5qt5-dev, zlib1g-dev,
+ extra-cmake-modules (>= 0.0.11), qtbase5-dev, libphonon4qt5-dev, zlib1g-dev,
  libssl-dev, libkf5archive-dev (>= 4.97.0), libkf5i18n-dev (>= 4.97.0), libkf5coreaddons-dev (>= 4.97.0), libkf5guiaddons-dev (>= 4.97.0),
  libkf5dbusaddons-dev (>= 4.97.0), libkf5config-dev (>= 4.97.0),
  kinit-dev (>= 4.97.0), libkf5kjs-dev (>= 4.97.0), libkf5auth-dev (>= 4.97.0), libkf5codecs-dev (>= 4.97.0), libkf5widgetsaddons-dev (>= 4.97.0), libkf5configwidgets-dev (>= 4.96.0), libkf5itemviews-dev (>= 4.96.0), libkf5notifications-dev (>= 4.96.0), libkf5completion-dev (>= 4.96.0),
@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libjpeg-dev, libgif-dev, libpng12-dev,
  libqt5x11extras-dev, xvfb, libkf5service-dev (>= 4.97.0),
  libkf5windowsystem-dev (>= 4.97.0), libkf5crash-dev (>= 4.97.0),
- libkf5iconthemes-dev (>= 4.97.0), libphonon5qt5experimental-dev,
+ libkf5iconthemes-dev (>= 4.97.0), libphonon4qt5experimental-dev,
  libkf5attica-dev (>= 4.97.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/khtml

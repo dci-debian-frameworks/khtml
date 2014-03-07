@@ -1,4 +1,6 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+khtmlpart.so libkf5khtml5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -3306,3 +3308,24 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4.96.0
  (c++)"non-virtual thunk to KSSLKeyGen::~KSSLKeyGen()@Base" 4.96.0
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4.96.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libkmultipart.so libkf5khtml5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+khtmladaptorpart.so libkf5khtml5 #MINVER#
+ _ZN3KJS6JSCell4markEv@Base 4.97.0
+ _ZN3KJS6JSCellD0Ev@Base 4.97.0
+ _ZN3KJS6JSCellD1Ev@Base 4.97.0
+ _ZN3KJS6JSCellD2Ev@Base 4.97.0
+ _ZN3KJS7JSValueD0Ev@Base 4.97.0
+ _ZN3KJS7JSValueD1Ev@Base 4.97.0
+ _ZN3KJS7JSValueD2Ev@Base 4.97.0
+ _ZTIN14WTFNoncopyable11NoncopyableE@Base 4.97.0
+ _ZTIN3KJS6JSCellE@Base 4.97.0
+ _ZTIN3KJS7JSValueE@Base 4.97.0
+ _ZTSN14WTFNoncopyable11NoncopyableE@Base 4.97.0
+ _ZTSN3KJS6JSCellE@Base 4.97.0
+ _ZTSN3KJS7JSValueE@Base 4.97.0
+ _ZTVN3KJS6JSCellE@Base 4.97.0
+ _ZTVN3KJS7JSValueE@Base 4.97.0
