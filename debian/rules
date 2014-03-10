@@ -8,3 +8,7 @@ override_dh_strip:
 
 override_dh_auto_test:
 	xvfb-run -a dh_auto_test
+
+override_dh_lintian:
+	echo "$(pkg_lib): shared-lib-without-dependency-information" > debian/$(pkg_lib).lintian-overrides
+	dh_lintian
