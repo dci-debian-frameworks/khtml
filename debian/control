@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5parts-dev (>= 4.98.0), kf5-kio-dev (>= 4.98.0),
  libkf5wallet-dev (>= 4.98.0), libkf5globalaccel-dev (>= 4.98.0),
  libjpeg-dev, libgif-dev, libpng12-dev,
- libqt5x11extras-dev, xvfb, libkf5service-dev (>= 4.98.0),
+ libqt5x11extras5-dev, xvfb, libkf5service-dev (>= 4.98.0),
  libkf5windowsystem-dev (>= 4.98.0), libkf5crash-dev (>= 4.98.0),
  libkf5iconthemes-dev (>= 4.98.0), libphonon4qt5experimental-dev,
  libkf5attica-dev (>= 4.98.0)
