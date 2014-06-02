@@ -74,7 +74,7 @@ Files: src/svg/*
        src/html/HTMLVideoElement.h
        src/html/MediaError.h
        src/html/TimeRanges.cpp
-       src/html/TimeRanges.h 
+       src/html/TimeRanges.h
        src/xml/dom*
        src/platform/graphics/*
        src/css/css_mediaquery.h
@@ -142,4 +142,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
- 
