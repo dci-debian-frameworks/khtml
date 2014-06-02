@@ -26,7 +26,21 @@ Homepage: https://projects.kde.org/projects/frameworks/khtml
 Package: libkf5khtml-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5khtml5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5khtml5 (= ${binary:Version}), ${misc:Depends},
+ libkf5archive-dev,
+ libkf5bookmarks-dev,
+ libkf5globalaccel-dev,
+ libkf5i18n-dev,
+ libkf5iconthemes-dev,
+ libkf5js-dev,
+ libkf5kio-dev,
+ libkf5notifications-dev,
+ libkf5parts-dev,
+ libkf5sonnet-dev,
+ libkf5wallet-dev,
+ libkf5widgetsaddons-dev,
+ libkf5windowsystem-dev,
+ qtbase5-dev
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
