@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 khtmladaptorpart.so libkf5khtml5 #MINVER#
  _ZN3KJS6JSCell4markEv@Base 4.97.0
  _ZN3KJS6JSCellD0Ev@Base 4.97.0
@@ -20,6 +20,8 @@ khtmlpart.so libkf5khtml5 #MINVER#
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0
 kjavaappletviewer.so libkf5khtml5 #MINVER#
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -52,6 +54,8 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN11KHTMLGlobalC2Ev@Base 4.96.0
  _ZN11KHTMLGlobalD1Ev@Base 4.96.0
  _ZN11KHTMLGlobalD2Ev@Base 4.96.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN13KHTMLSettings10avFamiliesE@Base 4.96.0
  _ZN13KHTMLSettings11addAdFilterERK7QString@Base 4.96.0
  _ZN13KHTMLSettings11adviceToStrENS_17KJavaScriptAdviceE@Base 4.96.0
@@ -2283,7 +2287,11 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4.96.0
  _ZN9KHTMLViewD2Ev@Base 4.96.0
  _ZNK10KSSLKeyGen10metaObjectEv@Base 4.96.0
- (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4.96.0
+#MISSING: 4.100.0# (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4.96.0
