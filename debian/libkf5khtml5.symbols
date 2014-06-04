@@ -2287,7 +2287,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4.96.0
  _ZN9KHTMLViewD2Ev@Base 4.96.0
  _ZNK10KSSLKeyGen10metaObjectEv@Base 4.96.0
-#MISSING: 4.100.0# (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
