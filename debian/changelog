@@ -16,6 +16,8 @@ khtml (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     releases older than trusty
   * Remove incorrect Section fields
   * Change libkf5khtml5 to depend on -data source:Version rather than binary
+  * Rename libkf5khtml5-data to libkf5khtml-data
+    + Breaks+Replaces the previous package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:38 +0100
 

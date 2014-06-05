@@ -77,17 +77,19 @@ Description: HTML widget and component
 Package: libkf5khtml5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5khtml5-data (= ${source:Version}),
+Depends: libkf5khtml-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
 
-Package: libkf5khtml5-data
+Package: libkf5khtml-data
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5khtml5-data
+Replaces: libkf5khtml5-data
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
