@@ -77,7 +77,7 @@ Description: HTML widget and component
 Package: libkf5khtml5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5khtml5-data (= ${binary:Version}),
+Depends: libkf5khtml5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: HTML widget and component
