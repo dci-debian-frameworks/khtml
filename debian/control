@@ -75,7 +75,6 @@ Description: HTML widget and component
  Contains development files for khtml.
  
 Package: libkf5khtml5
-Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5khtml5-data (= ${binary:Version}),
