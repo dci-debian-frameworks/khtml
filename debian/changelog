@@ -19,6 +19,9 @@ khtml (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename libkf5khtml5-data to libkf5khtml-data
     + Breaks+Replaces the previous package
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on kio-dev instead of kf5-kio-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:38 +0100
 
 khtml (4.99.0-0ubuntu1) trusty; urgency=medium
