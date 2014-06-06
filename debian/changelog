@@ -18,6 +18,7 @@ khtml (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Change libkf5khtml5 to depend on -data source:Version rather than binary
   * Rename libkf5khtml5-data to libkf5khtml-data
     + Breaks+Replaces the previous package
+    + Make arch:all
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:38 +0100
 
