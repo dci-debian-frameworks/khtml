@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 0.0.14),
-               kio-dev (>= 4:4.100.0),
+               kio-dev (>= 4.100.0),
                kinit-dev (>= 4.100.0),
                libgif-dev,
                libjpeg-dev,
