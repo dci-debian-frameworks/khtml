@@ -45,6 +45,7 @@ Build-Depends: cmake,
                libssl-dev,
                pkg-kde-tools,
                qtbase5-dev,
+               xauth,
                xvfb,
                zlib1g-dev
 Standards-Version: 3.9.5
