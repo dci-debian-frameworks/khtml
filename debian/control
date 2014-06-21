@@ -6,8 +6,8 @@ XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 0.0.14),
-               kio-dev (>= 4.100.0),
                kinit-dev (>= 4.100.0),
+               kio-dev (>= 4.100.0),
                libgif-dev,
                libjpeg-dev,
                libkf5archive-dev (>= 4.100.0),
@@ -54,33 +54,46 @@ Homepage: https://projects.kde.org/projects/frameworks/khtml
 Package: libkf5khtml-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5khtml5 (= ${binary:Version}), ${misc:Depends},
- libkf5archive-dev,
- libkf5bookmarks-dev,
- libkf5globalaccel-dev,
- libkf5i18n-dev,
- libkf5iconthemes-dev,
- libkf5kjs-dev,
- kio-dev,
- libkf5notifications-dev,
- libkf5parts-dev,
- libkf5sonnet-dev,
- libkf5wallet-dev,
- libkf5widgetsaddons-dev,
- libkf5windowsystem-dev,
- qtbase5-dev
+Depends: kio-dev,
+         libkf5archive-dev,
+         libkf5bookmarks-dev,
+         libkf5globalaccel-dev,
+         libkf5i18n-dev,
+         libkf5iconthemes-dev,
+         libkf5khtml5 (= ${binary:Version}),
+         libkf5kjs-dev,
+         libkf5notifications-dev,
+         libkf5parts-dev,
+         libkf5sonnet-dev,
+         libkf5wallet-dev,
+         libkf5widgetsaddons-dev,
+         libkf5windowsystem-dev,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
  .
  Contains development files for khtml.
- 
+
+Package: libkf5khtml-bin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Description: HTML widget and component
+ KHTML is a web rendering engine, based on the KParts technology and
+ using KJS for JavaScript support.
+ .
+ This package contains the runtime files.
+
 Package: libkf5khtml5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5khtml-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5khtml-bin (= ${binary:Version})
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
@@ -102,6 +115,7 @@ Priority: extra
 Section: debug
 Architecture: any
 Depends: libkf5khtml5 (= ${binary:Version}), ${misc:Depends}
+Recommends: libkf5khtml-bin (= ${binary:Version})
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.

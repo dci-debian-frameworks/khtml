@@ -1,0 +1,5 @@
+usr/lib/*/qt5/plugins/khtmladaptorpart.so
+usr/lib/*/qt5/plugins/khtmlimagepart.so
+usr/lib/*/qt5/plugins/khtmlpart.so
+usr/lib/*/qt5/plugins/kjavaappletviewer.so
+usr/lib/*/qt5/plugins/libkmultipart.so
