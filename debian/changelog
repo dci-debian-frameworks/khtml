@@ -23,6 +23,8 @@ khtml (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ José Manuel Santamaría Lema ]
   * Build depend on kio-dev instead of kf5-kio-dev.
   * Build depend on xauth.
+  * Run wrap-and-sort.
+  * Create libkf5khtml-bin to provide runtime files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:38 +0100
 
