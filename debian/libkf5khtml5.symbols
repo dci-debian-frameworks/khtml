@@ -1849,9 +1849,9 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3KJS19InternalFunctionImpD2Ev@Base 4.96.0
  _ZN3KJS4List6appendEPNS_7JSValueE@Base 5.0.0
  _ZN3KJS6JSCell4markEv@Base 4.96.0
- _ZN3KJS6JSCellD0Ev@Base 4.96.0
- _ZN3KJS6JSCellD1Ev@Base 4.96.0
- _ZN3KJS6JSCellD2Ev@Base 4.96.0
+ (arch=i386)_ZN3KJS6JSCellD0Ev@Base 5.0.0
+ (arch=i386)_ZN3KJS6JSCellD1Ev@Base 5.0.0
+ (arch=i386)_ZN3KJS6JSCellD2Ev@Base 5.0.0
  _ZN3KJS7JSValue9getObjectEv@Base 4.96.0
  _ZN3KJS7JSValueD0Ev@Base 4.96.0
  _ZN3KJS7JSValueD1Ev@Base 4.96.0
@@ -2268,6 +2268,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (arch=amd64)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4.96.0

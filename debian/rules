@@ -7,8 +7,4 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5khtml5-dbg
 
 override_dh_auto_test:
-	xvfb-run -a dh_auto_test
-
-override_dh_lintian:
-	echo "$(pkg_lib): shared-lib-without-dependency-information" > debian/$(pkg_lib).lintian-overrides
-	dh_lintian
+	xvfb-run -a $(overridden_command)
