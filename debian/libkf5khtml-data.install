@@ -4,9 +4,8 @@ usr/share/kf5/khtml/css/presentational.css
 usr/share/kf5/khtml/css/quirks.css
 usr/share/kf5/khtml/error.html
 usr/share/kf5/kjava/
-usr/share/khtml/
-usr/share/khtml/khtml5.rc
-usr/share/khtml/khtml5_browser.rc
+usr/share/kxmlgui5/khtml/khtml_browser.rc
+usr/share/kxmlgui5/khtml/khtml.rc
 usr/share/kservices5/khtml.desktop
 usr/share/kservices5/khtml.desktop
 usr/share/kservices5/khtmladaptorpart.desktop
