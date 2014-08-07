@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64 arm64 i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.1.0 amd64 arm64 armhf i386 powerpc ppc64el
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -67,10 +67,10 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN17KHTMLImageFactoryD0Ev@Base 4.96.0
  _ZN17KHTMLImageFactoryD1Ev@Base 4.96.0
  _ZN17KHTMLImageFactoryD2Ev@Base 4.96.0
- (arch=!amd64 !i386)_ZN18QStyleOptionButtonD1Ev@Base 5.0.0
- (arch=!amd64 !i386)_ZN18QStyleOptionButtonD2Ev@Base 5.0.0
- (arch=!amd64 !i386)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.0
- (arch=!amd64 !i386)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386)_ZN18QStyleOptionButtonD1Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386)_ZN18QStyleOptionButtonD2Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.0
  _ZN20QStyleOptionViewItemD1Ev@Base 4.96.0
  _ZN20QStyleOptionViewItemD2Ev@Base 4.96.0
  _ZN3DOM10MouseEvent14initMouseEventERKNS_9DOMStringEbbRKNS_12AbstractViewElllllbbbbtRKNS_4NodeE@Base 4.96.0
@@ -1852,7 +1852,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3KJS19InternalFunctionImpD1Ev@Base 4.96.0
  _ZN3KJS19InternalFunctionImpD2Ev@Base 4.96.0
  _ZN3KJS4List6appendEPNS_7JSValueE@Base 5.0.0
- _ZN3KJS6JSCell4markEv@Base 4.96.0
+ (arch=!armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS7JSValue9getObjectEv@Base 4.96.0
  _ZN3KJS7JSValueD0Ev@Base 4.96.0
  _ZN3KJS7JSValueD1Ev@Base 4.96.0
@@ -2271,7 +2271,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  (optional=templinst|arch=!arm64 !ppc64el)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
- _ZNK12QPaintDevice7devTypeEv@Base 5.0.0
+ (arch=!armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4.96.0
@@ -3094,7 +3094,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTIN3DOM9DomSharedE@Base 4.96.0
  _ZTIN3DOM9TextEventE@Base 4.96.0
  _ZTIN3KJS14JSGlobalObjectE@Base 4.96.0
- _ZTIN3KJS6JSCellE@Base 4.96.0
+ (arch=!armhf)_ZTIN3KJS6JSCellE@Base 4.96.0
  _ZTIN3KJS7JSValueE@Base 4.96.0
  _ZTIN5khtml10ChildFrameE@Base 4.96.0
  _ZTIN5khtml10MouseEventE@Base 4.96.0
@@ -3198,7 +3198,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTSN3DOM9DomSharedE@Base 4.96.0
  _ZTSN3DOM9TextEventE@Base 4.96.0
  _ZTSN3KJS14JSGlobalObjectE@Base 4.96.0
- _ZTSN3KJS6JSCellE@Base 4.96.0
+ (arch=!armhf)_ZTSN3KJS6JSCellE@Base 4.96.0
  _ZTSN3KJS7JSValueE@Base 4.96.0
  _ZTSN5khtml10ChildFrameE@Base 4.96.0
  _ZTSN5khtml10MouseEventE@Base 4.96.0
@@ -3302,7 +3302,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTVN3DOM9DomSharedE@Base 4.96.0
  _ZTVN3DOM9TextEventE@Base 4.96.0
  _ZTVN3KJS14JSGlobalObjectE@Base 4.96.0
- _ZTVN3KJS6JSCellE@Base 4.96.0
+ (arch=!armhf)_ZTVN3KJS6JSCellE@Base 4.96.0
  _ZTVN3KJS7JSValueE@Base 4.96.0
  _ZTVN5khtml10ChildFrameE@Base 4.96.0
  _ZTVN5khtml10MouseEventE@Base 4.96.0

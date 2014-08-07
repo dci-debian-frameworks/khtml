@@ -1,3 +1,10 @@
+khtml (5.1.0-0ubuntu2) utopic; urgency=medium
+
+  * Confirm symbols on all archs, hopefully get an armhf build for the first
+    time
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 06 Aug 2014 23:28:09 -0400
+
 khtml (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
