@@ -1,7 +1,12 @@
 khtml (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
+
+  [ Scarlett Clark ]
+  * Fix spaces in copyright shortname. 
+  * wrap-and-sort 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:38:44 +0000
 
