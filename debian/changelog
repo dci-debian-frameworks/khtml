@@ -1,4 +1,4 @@
-khtml (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+khtml (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -8,7 +8,7 @@ khtml (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix spaces in copyright shortname. 
   * wrap-and-sort 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:38:44 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 20:08:56 +0200
 
 khtml (5.1.0-0ubuntu2) utopic; urgency=medium
 
