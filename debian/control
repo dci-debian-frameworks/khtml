@@ -50,6 +50,7 @@ Build-Depends: cmake,
                zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/khtml
+XS-Testsuite: autopkgtest
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/khtml.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/khtml.git
 
