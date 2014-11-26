@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.4.0+git20141126.0008+15.04 amd64 i386
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -2873,6 +2873,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK3DOM8RGBColor5greenEv@Base 4.96.0
  _ZNK3DOM9DOMString10percentageERi@Base 4.96.0
  _ZNK3DOM9DOMString10startsWithERKS0_@Base 4.96.0
+ _ZNK3DOM9DOMString10trimSpacesEv@Base 5.4.0+git20141126.0008+15.04
  _ZNK3DOM9DOMString11reverseFindE5QChari@Base 4.96.0
  _ZNK3DOM9DOMString4copyEv@Base 4.96.0
  _ZNK3DOM9DOMString4findE5QChari@Base 4.96.0
