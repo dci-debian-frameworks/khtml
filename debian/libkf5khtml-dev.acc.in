@@ -10,11 +10,12 @@
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5Html.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KHtml.so
 </libs>
 
 <gcc_options>
     -fPIC
+    -I/usr/lib/@@DEB_HOST_MULTIARCH@@/qt5/mkspecs/common/posix/
 </gcc_options>
 
 </descriptor>
