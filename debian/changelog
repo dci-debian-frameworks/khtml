@@ -1,3 +1,9 @@
+khtml (5.7.0-0ubuntu3) vivid; urgency=medium
+
+  * Further symbols files updates for arch specific symbols fun
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Feb 2015 19:13:20 +0100
+
 khtml (5.7.0-0ubuntu2) vivid; urgency=medium
 
   * Update .symbols for ppc64el
