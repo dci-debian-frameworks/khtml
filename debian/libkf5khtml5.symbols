@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0+git20150211.0429+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.7.0 amd64 arm64 armhf i386 powerpc ppc64el
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -1851,7 +1851,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3KJS19InternalFunctionImpD0Ev@Base 4.96.0
  _ZN3KJS19InternalFunctionImpD1Ev@Base 4.96.0
  _ZN3KJS19InternalFunctionImpD2Ev@Base 4.96.0
- _ZN3KJS4List6appendEPNS_7JSValueE@Base 5.7.0+git20150211.0429+15.04
+ (arch=!i386)_ZN3KJS4List6appendEPNS_7JSValueE@Base 5.7.0
  (arch=!armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS7JSValue9getObjectEv@Base 4.96.0
  _ZN3KJS7JSValueD0Ev@Base 4.96.0
@@ -2902,7 +2902,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK3KJS7JSValue8isObjectEv@Base 4.96.0
  _ZNK3KJS7JSValue8toNumberEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4.96.0
- (arch=ppc64el)_ZNK3KJS7JSValue9getNumberEv@Base 5.0.0
+ (arch=ppc64el)_ZNK3KJS7JSValue9getNumberERd@Base 5.7.0
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7UString7qstringEv@Base 4.96.0
  _ZNK3KJS7UString9domStringEv@Base 4.96.0
