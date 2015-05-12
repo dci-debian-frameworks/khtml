@@ -28,6 +28,7 @@ Build-Depends: cmake (>= 2.8.12),
                libpng12-dev,
                libqt5x11extras5-dev (>= 5.4),
                libssl-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
                zlib1g-dev
