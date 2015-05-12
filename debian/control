@@ -26,10 +26,10 @@ Build-Depends: cmake (>= 2.8.12),
                libphonon4qt5-dev (>= 4:4.6.0),
                libphonon4qt5experimental-dev (>= 4:4.6.0),
                libpng12-dev,
-               libqt5x11extras5-dev (>= 5.2.0~),
+               libqt5x11extras5-dev (>= 5.4),
                libssl-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
+               qtbase5-dev (>= 5.4),
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/khtml
@@ -53,7 +53,7 @@ Depends: kio-dev (>= 5.10.0~),
          libkf5wallet-dev (>= 5.10.0~),
          libkf5widgetsaddons-dev (>= 5.10.0~),
          libkf5windowsystem-dev (>= 5.10.0~),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
