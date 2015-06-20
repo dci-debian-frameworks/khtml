@@ -1,6 +1,10 @@
 khtml (5.10.0-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.0).
+
+  [ Felix Geyer ]
+  * Update the symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:20:24 +0200
 

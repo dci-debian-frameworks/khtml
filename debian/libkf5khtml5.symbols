@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.9.0 amd64 arm64 armel armhf i386 mipsel ppc64el
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -31,8 +31,8 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN11KHTMLGlobalC2Ev@Base 4.96.0
  _ZN11KHTMLGlobalD1Ev@Base 4.96.0
  _ZN11KHTMLGlobalD2Ev@Base 4.96.0
- (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
- (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN13KHTMLSettings10avFamiliesE@Base 4.96.0
  _ZN13KHTMLSettings11addAdFilterERK7QString@Base 4.96.0
  _ZN13KHTMLSettings11adviceToStrENS_17KJavaScriptAdviceE@Base 4.96.0
@@ -67,10 +67,10 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN17KHTMLImageFactoryD0Ev@Base 4.96.0
  _ZN17KHTMLImageFactoryD1Ev@Base 4.96.0
  _ZN17KHTMLImageFactoryD2Ev@Base 4.96.0
- (arch=!amd64 !armhf !i386)_ZN18QStyleOptionButtonD1Ev@Base 5.0.0
- (arch=!amd64 !armhf !i386)_ZN18QStyleOptionButtonD2Ev@Base 5.0.0
- (arch=!amd64 !armhf !i386)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.0
- (arch=!amd64 !armhf !i386)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386 !mipsel)_ZN18QStyleOptionButtonD1Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386 !mipsel)_ZN18QStyleOptionButtonD2Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386 !mipsel)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.0
+ (arch=!amd64 !armhf !i386 !mipsel)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.0
  _ZN20QStyleOptionViewItemD1Ev@Base 4.96.0
  _ZN20QStyleOptionViewItemD2Ev@Base 4.96.0
  _ZN3DOM10MouseEvent14initMouseEventERKNS_9DOMStringEbbRKNS_12AbstractViewElllllbbbbtRKNS_4NodeE@Base 4.96.0
@@ -1851,8 +1851,8 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3KJS19InternalFunctionImpD0Ev@Base 4.96.0
  _ZN3KJS19InternalFunctionImpD1Ev@Base 4.96.0
  _ZN3KJS19InternalFunctionImpD2Ev@Base 4.96.0
- (arch=!armhf)_ZN3KJS4List6appendEPNS_7JSValueE@Base 5.8.0
- (arch=!armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
+ (arch=!i386)_ZN3KJS4List6appendEPNS_7JSValueE@Base 5.9.0
+ (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS7JSValue9getObjectEv@Base 4.96.0
  _ZN3KJS7JSValueD0Ev@Base 4.96.0
  _ZN3KJS7JSValueD1Ev@Base 4.96.0
@@ -1861,8 +1861,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3KJS7UStringC1ERKN3DOM9DOMStringE@Base 4.96.0
  _ZN3KJS7UStringC2ERK7QString@Base 4.96.0
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4.96.0
- (arch=ppc64el)_ZN3KJS8JSObjectC1EPNS_7JSValueE@Base 5.0.0
- (arch=ppc64el)_ZN3KJS8JSObjectC2EPNS_7JSValueE@Base 5.0.0
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4.96.0
  _ZN5khtml10ChildFrame13dumpFrameTreeEP9KHTMLPart@Base 4.96.0
@@ -2270,8 +2268,8 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
- (optional=templinst|arch=!arm64 !ppc64el)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
- (arch=!armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (arch=!armel !armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4.96.0
@@ -2902,7 +2900,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK3KJS7JSValue8isObjectEv@Base 4.96.0
  _ZNK3KJS7JSValue8toNumberEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4.96.0
- (arch=ppc64el)_ZNK3KJS7JSValue9getNumberERd@Base 5.7.0
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7UString7qstringEv@Base 4.96.0
  _ZNK3KJS7UString9domStringEv@Base 4.96.0
@@ -3094,7 +3091,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTIN3DOM9DomSharedE@Base 4.96.0
  _ZTIN3DOM9TextEventE@Base 4.96.0
  _ZTIN3KJS14JSGlobalObjectE@Base 4.96.0
- (arch=!armhf)_ZTIN3KJS6JSCellE@Base 4.96.0
+ (arch=!armel !armhf)_ZTIN3KJS6JSCellE@Base 4.96.0
  _ZTIN3KJS7JSValueE@Base 4.96.0
  _ZTIN5khtml10ChildFrameE@Base 4.96.0
  _ZTIN5khtml10MouseEventE@Base 4.96.0
@@ -3198,7 +3195,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTSN3DOM9DomSharedE@Base 4.96.0
  _ZTSN3DOM9TextEventE@Base 4.96.0
  _ZTSN3KJS14JSGlobalObjectE@Base 4.96.0
- (arch=!armhf)_ZTSN3KJS6JSCellE@Base 4.96.0
+ (arch=!armel !armhf)_ZTSN3KJS6JSCellE@Base 4.96.0
  _ZTSN3KJS7JSValueE@Base 4.96.0
  _ZTSN5khtml10ChildFrameE@Base 4.96.0
  _ZTSN5khtml10MouseEventE@Base 4.96.0
@@ -3302,7 +3299,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTVN3DOM9DomSharedE@Base 4.96.0
  _ZTVN3DOM9TextEventE@Base 4.96.0
  _ZTVN3KJS14JSGlobalObjectE@Base 4.96.0
- (arch=!armhf)_ZTVN3KJS6JSCellE@Base 4.96.0
+ (arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4.96.0
  _ZTVN3KJS7JSValueE@Base 4.96.0
  _ZTVN5khtml10ChildFrameE@Base 4.96.0
  _ZTVN5khtml10MouseEventE@Base 4.96.0
