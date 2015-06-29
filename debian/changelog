@@ -1,4 +1,4 @@
-khtml (5.11.0-1~) UNRELEASED; urgency=medium
+khtml (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
@@ -7,7 +7,7 @@ khtml (5.11.0-1~) UNRELEASED; urgency=medium
   [ Felix Geyer ]
   * Update the symbols file.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 10:02:59 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 14:55:30 +0200
 
 khtml (5.9.0-1) experimental; urgency=medium
 
