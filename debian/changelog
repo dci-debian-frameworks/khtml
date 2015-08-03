@@ -1,4 +1,4 @@
-khtml (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+khtml (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -15,7 +15,7 @@ khtml (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix merge again. 
   * Batchpatch symbols file i386. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:09:31 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:30:24 +0200
 
 khtml (5.11.0-1) unstable; urgency=medium
 
