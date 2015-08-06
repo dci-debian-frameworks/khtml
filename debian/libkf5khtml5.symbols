@@ -65,10 +65,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN17KHTMLImageFactoryD0Ev@Base 4.96.0
  _ZN17KHTMLImageFactoryD1Ev@Base 4.96.0
  _ZN17KHTMLImageFactoryD2Ev@Base 4.96.0
- (arch=!amd64 !armhf !i386 !mipsel)_ZN18QStyleOptionButtonD1Ev@Base 5.0.0
- (arch=!amd64 !armhf !i386 !mipsel)_ZN18QStyleOptionButtonD2Ev@Base 5.0.0
- (arch=!amd64 !armhf !i386 !mipsel)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.0
- (arch=!amd64 !armhf !i386 !mipsel)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.0
  _ZN3DOM10MouseEvent14initMouseEventERKNS_9DOMStringEbbRKNS_12AbstractViewElllllbbbbtRKNS_4NodeE@Base 4.96.0
  _ZN3DOM10MouseEventC1EPNS_14MouseEventImplE@Base 4.96.0
  _ZN3DOM10MouseEventC1ERKNS_5EventE@Base 4.96.0
@@ -3280,7 +3276,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTVN3DOM9DomSharedE@Base 4.96.0
  _ZTVN3DOM9TextEventE@Base 4.96.0
  (arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4.96.0
- _ZTVN3KJS7JSValueE@Base 4.96.0
+ (arch=!armhf)_ZTVN3KJS7JSValueE@Base 4.96.0
  _ZTVN5khtml10ChildFrameE@Base 4.96.0
  _ZTVN5khtml10MouseEventE@Base 4.96.0
  _ZTVN5khtml14MouseMoveEventE@Base 4.96.0
