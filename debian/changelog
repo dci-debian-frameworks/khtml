@@ -1,3 +1,10 @@
+khtml (5.12.0-0ubuntu2) wily; urgency=medium
+
+  * Adjust .symbols for slightly changed symbol leaks from g++ 5, and drop
+    JSValue from armhf like in khs.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 06 Aug 2015 11:34:32 +0200
+
 khtml (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
