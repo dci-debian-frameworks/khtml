@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64 arm64 i386 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.13.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -2876,7 +2876,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK3KJS7JSValue8toNumberEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7JSValue9getNumberERd@Base 5.13.0
- (optional=external|arch=i386 kfreebsd-i386 mipsel powerpc)_ZNK3KJS7JSValue9getNumberEv@Base 5.13.0
+ (optional=external|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc)_ZNK3KJS7JSValue9getNumberEv@Base 5.13.0
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7UString7qstringEv@Base 4.96.0
  _ZNK3KJS7UString9domStringEv@Base 4.96.0
@@ -3276,7 +3276,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTVN3DOM9DomSharedE@Base 4.96.0
  _ZTVN3DOM9TextEventE@Base 4.96.0
  (optional=external|arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4.96.0
- _ZTVN3KJS7JSValueE@Base 4.96.0
+ (arch=!armel !armhf)_ZTVN3KJS7JSValueE@Base 5.13.0
  _ZTVN5khtml10ChildFrameE@Base 4.96.0
  _ZTVN5khtml10MouseEventE@Base 4.96.0
  _ZTVN5khtml14MouseMoveEventE@Base 4.96.0
