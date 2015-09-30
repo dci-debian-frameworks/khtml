@@ -1,6 +1,7 @@
 khtml (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
+  * Remove symbols file for backport only. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 16:50:47 -0700
 
