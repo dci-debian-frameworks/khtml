@@ -1,4 +1,4 @@
-khtml (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+khtml (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -7,7 +7,7 @@ khtml (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 19:53:34 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:49:12 +0100
 
 khtml (5.14.0-0ubuntu1) wily; urgency=medium
 
