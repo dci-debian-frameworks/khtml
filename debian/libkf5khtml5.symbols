@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.18.0 amd64
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -3284,6 +3284,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTVN5khtml17DrawContentsEventE@Base 4.96.0
  _ZTVN5khtml17MouseReleaseEventE@Base 4.96.0
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4.96.0
+ _ZZZN10KAboutDataC4ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.18.0
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4.96.0
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4.96.0
  (c++)"non-virtual thunk to KSSLKeyGen::~KSSLKeyGen()@Base" 4.96.0
