@@ -1,9 +1,9 @@
-khtml (5.18.0-1~) UNRELEASED; urgency=medium
+khtml (5.18.0-1) experimental; urgency=medium
 
   * New upstream release (5.18.0).
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 20:58:13 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:42 +0100
 
 khtml (5.16.0-1) unstable; urgency=medium
 
