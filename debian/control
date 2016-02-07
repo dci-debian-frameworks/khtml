@@ -94,15 +94,3 @@ Description: HTML widget and component
  using KJS for JavaScript support.
  .
  This package contains the translations and data files.
-
-Package: libkf5khtml5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: libkf5khtml5 (= ${binary:Version}), ${misc:Depends}
-Recommends: libkf5khtml-bin (= ${binary:Version})
-Description: HTML widget and component
- KHTML is a web rendering engine, based on the KParts technology and
- using KJS for JavaScript support.
- .
- Contains debug symbols for khtml.
