@@ -1,8 +1,8 @@
-khtml (5.19.0-1~) UNRELEASED; urgency=medium
+khtml (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 23:52:13 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:04 +0100
 
 khtml (5.18.0-1) experimental; urgency=medium
 
