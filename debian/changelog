@@ -1,4 +1,4 @@
-khtml (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+khtml (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial
