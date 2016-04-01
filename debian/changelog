@@ -1,6 +1,6 @@
-khtml (5.20.0-1~1.gbp4309d7) UNRELEASED; urgency=medium
+khtml (5.20.0-1~2.gbpb0f916) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4309d75969ed06b52418a9b9291af8667c1a7a5d **
+  ** SNAPSHOT build @b0f9161f9765494b8b3c2ce6b9b3f2676b235fc8 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ khtml (5.20.0-1~1.gbp4309d7) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:48:39 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:48:14 +0200
 
 khtml (5.19.0-1) experimental; urgency=medium
 
