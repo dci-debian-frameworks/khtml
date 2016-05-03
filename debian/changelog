@@ -10,6 +10,19 @@ khtml (5.20.0-0neon) wily; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:06:19 +0000
 
+khtml (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:04 +0100
+
+khtml (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.18.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:42 +0100
+
 khtml (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
@@ -20,6 +33,14 @@ khtml (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add a new symbol to libkf5khtml5.symbols
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:02:00 +0100
+
+khtml (5.16.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Change libpng12-dev build-dependency to libpng-dev, to ease libpng
+    transition. (Closes: #810187)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 21 Jan 2016 18:11:51 +0100
 
 khtml (5.16.0-1) unstable; urgency=medium
 
