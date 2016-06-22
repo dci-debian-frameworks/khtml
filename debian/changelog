@@ -1,11 +1,10 @@
-khtml (5.23.0-1~1.gbpff1346) UNRELEASED; urgency=medium
+khtml (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ff1346e4c7fd56b42229381f9535faabdfc05e89 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.22.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 19:48:44 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:49:33 +0200
 
 khtml (5.22.0-1) unstable; urgency=medium
 
