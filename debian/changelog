@@ -1,3 +1,12 @@
+khtml (5.24.0-1~1.gbpcc4957) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @cc49574db6d278334c3de81f7deea7bc56b85e35 **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.23.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:48:56 +0200
+
 khtml (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
