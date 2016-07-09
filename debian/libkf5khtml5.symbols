@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.22.0 hurd-i386
+# SymbolsHelper-Confirmed: 5.23.0 arm64
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
@@ -2244,6 +2244,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 5.23.0
  (optional=external|arch=!armel !armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
