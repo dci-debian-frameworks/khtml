@@ -1,11 +1,18 @@
-khtml (5.24.0-1~1.gbpcc4957) UNRELEASED; urgency=medium
+khtml (5.24.0-1~2.gbp630748) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @630748210e1f1e397cd75c2b4b3375eca28a2547 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @cc49574db6d278334c3de81f7deea7bc56b85e35 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.23.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:48:56 +0200
+  [ Maximiliano Curia ]
+  * Make symbols files gcc 6 compatible.
+    Thanks to Martin Michlmayr for the report (Closes: 811972)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 16 Jul 2016 18:48:13 +0200
 
 khtml (5.23.0-1) unstable; urgency=medium
 
