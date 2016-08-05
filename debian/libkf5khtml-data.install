@@ -6,5 +6,4 @@ usr/share/kservices5/khtmladaptorpart.desktop
 usr/share/kservices5/khtmlimage.desktop
 usr/share/kservices5/kjavaappletviewer.desktop
 usr/share/kservices5/kmultipart.desktop
-usr/share/kxmlgui5/khtml/
 usr/share/locale/*/*/khtml5.mo
