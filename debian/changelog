@@ -1,6 +1,6 @@
-khtml (5.25.0-1~1.gbpa41b13) UNRELEASED; urgency=medium
+khtml (5.25.0-1~2.gbp3083df) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a41b13bff25479ea871e4893485dab127cee0358 **
+  ** SNAPSHOT build @3083df91f8bc2388db35985d49bc56961adbc757 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @cc49574db6d278334c3de81f7deea7bc56b85e35 **
@@ -14,8 +14,9 @@ khtml (5.25.0-1~1.gbpa41b13) UNRELEASED; urgency=medium
   * Make symbols files gcc 6 compatible.
     Thanks to Martin Michlmayr for the report (Closes: 811972)
   * Update install files
+  * Bump group breaks (5.25)
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 13:48:21 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:48:17 +0200
 
 khtml (5.23.0-1) unstable; urgency=medium
 
