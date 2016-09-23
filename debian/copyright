@@ -11,9 +11,9 @@ Copyright: 2005-2006, Alexander Kellett <lypanov@kde.org>
            2005-2006, Anders Carlsson <andersca@mac.com>
            2001, Andreas Schlapbach <schlpbch@iam.unibe.ch>
            1999-2003, Antti Koivisto <koivisto@kde.org>
-           2003, Apple Computer
+           2003-2004, Apple Computer
            2006, Apple Computer Inc
-           2002, Apple Computer, Inc
+           2002-2009, Apple Computer, Inc
            2003-2008, Apple Inc
            2008, Apple, Inc
            2013, Bernd Buschinski <b.buschinski@googlemail.com>
@@ -27,7 +27,7 @@ Copyright: 2005-2006, Alexander Kellett <lypanov@kde.org>
            2002, David Faure <david@mandrakesoft.com>
            1999-2007, David Faure <faure@kde.org>
            2007, David Smith <catfish.man@gmail.com>
-           2001-2003, Dirk Mueller ( mueller@kde.org )
+           2001-2004, Dirk Mueller ( mueller@kde.org )
            2000-2003, Dirk Mueller <mueller@kde.org>
            2009, Eduardo Robles Elvira <edulix@gmail.com>
            2006-2008, Eric Seidel <eric@webkit.org>
@@ -40,7 +40,7 @@ Copyright: 2005-2006, Alexander Kellett <lypanov@kde.org>
            1999-2008, Harri Porten <porten@kde.org>
            Hebrew algorithm by <herouth@netvision.net.il>
            2005, Ivor Hewitt <ivor@kde.org>
-           2005, Koos Vriezen <koos ! vriezen () xs4all ! nl>
+           2003-2005, Koos Vriezen <koos ! vriezen () xs4all ! nl>
            2003, Koos Vriezen <koos.vriezen@xs4all.nl>
            1999-2003, Lars Knoll <knoll@kde.org>
            1998-1999, Lars Knoll <knoll@mpi-hd.mpg.de>
@@ -70,7 +70,7 @@ Copyright: 2005-2006, Alexander Kellett <lypanov@kde.org>
            2006, The Aquaosk-2.0 Team
            2002-2003, The Karbon Developers
            2002, Till
-           2001-2002, Till Krech <till@snafu.de>
+           2002, Till Krech <till@snafu.de>
            2001, Tobias Anton <anton@stud.fbi.fh-darmstadt.de>
            1997-1999, Torben Weis <weis@kde.org>
            2008-2009, Vyacheslav Tokarev <tsjoker@gmail.com>
@@ -80,14 +80,14 @@ Copyright: 2005-2006, Alexander Kellett <lypanov@kde.org>
            1998, W. Bastian */\n\n#ifndef '$NS'CSSVALUES_H\n#define '$NS'CSSVALUES_H\n\nDOM::DOMString get'$NS'ValueName(unsigned short id) KHTML_NO_EXPORT;\n' > "$prefix"cssvalues.h
            2000, W3C® (MIT, INRIA, Keio)
            1998-2002, Waldo Bastian <bastian@kde.org>
-           World Wide Web Consortium , (Massachusetts Institute of
+           2003, World Wide Web Consortium , (Massachusetts Institute of
            2000, Wynn Wilkes <wynnw@caldera.com>
            2004-2005, Zack Rusin <zack@kde.org>
            2009, Adriaan de Groot, Mustapha Abubakar, Ibrahim Dasuna
            2006, Canonical Ltd, and Rosetta Contributors 2006
            2001-2011, David Faure <faure@kde.org>
            1998, Erez Nir <erez-n@actcom.co.il>
-           2001-2005, Free Software Foundation, Inc
+           1997-2012, Free Software Foundation, Inc
            2008-2009, K Desktop Environment
            2005, KDE Armenian translation team
            2005, KDE Russian translation team
@@ -95,18 +95,13 @@ Copyright: 2005-2006, Alexander Kellett <lypanov@kde.org>
            2007, KDE i18n Project for Vietnamese
            2000-2003, Lars Knoll <knoll@kde.org>
            1999-2003, Meni Livne <livne@kde.org>
-           2008, This_file_is_part_of_KDE
+           2002-2016, This_file_is_part_of_KDE
            2001, Till Krech <till@snafu.de>
            2008, Vyacheslav Tokarev
            2008, Vyacheslav Tokarev */
-           1999, W. Bastian
+           1998-1999, W. Bastian
            2001, translate.org.za
            2001, डेभिड फाउर <email>david@mandrakesoft.com</email>
-           2003, Apple Computer
-           2003, Dirk Mueller <mueller@kde.org>
-           1984-2012, Free Software Foundation, Inc
-           2008, Germain Garand <germain@ebooksfrance.org>
-           2002-2003, Lars Knoll <knoll@kde.org>
            2002, David Faure <david@mandrakesoft.com>
 License: LGPL-2+
 
@@ -364,8 +359,8 @@ Files: src/bindings/js/JSSVGPODTypeWrapper.h
        src/xpath/variablereference.cpp
        src/xpath/variablereference.h
 Copyright: 2010, Allan Sandfeld Jensen <sandfeld@kde.org>
-           2004-2007, Apple Computer, Inc
-           2007-2008, Apple Inc
+           2003-2008, Apple Computer, Inc
+           2003-2008, Apple Inc
            2006-2007, Eric Seidel <eric@webkit.org>
            2006-2008, Fredrik Höglund <fredrik@kde.org>
            2005, Frerich Raabe <raabe@kde.org>
@@ -455,7 +450,7 @@ Copyright: 2006, Allan Sandfeld Jense <kde@carewolf.com>
            2003, Dirk Mueller <mueller@kde.org>
            2006, Germain Garand <germain@ebooksfrance.org>
            1998, Netscape Communications Corporation
-License: GPL-2 or LGPL-2.1+ or MPL-1.1
+License: GPL-2_or_LGPL-2.1+_or_MPL-1.1
 
 Files: src/misc/guess_ja.cpp
        src/misc/guess_ja_p.h
@@ -476,7 +471,7 @@ Copyright: 2004, Apple Computer, Inc
            1999, Lars Knoll <knoll@kde.org>
            2007-2010, Maksim Orlovich <maksim@kde.org>
            2005, Zack Rusin <zack@kde.org>
-License: BSD-2-clause and LGPL-2+
+License: BSD-2-clause_or_LGPL-2+
 
 Files: src/css/parser.h
        src/xpath/parser.cpp
@@ -500,15 +495,61 @@ Copyright: 2006, Allan Sandfeld Jensen <kde@carewolf.com>
            2001, Dirk Mueller <mueller@kde.org>
            1999, Lars Knoll <knoll@kde.org>
            2005-2010, Maksim Orlovich <maksim@kde.org>
-License: BSD-3-clause and LGPL-2+
+License: BSD-3-clause or LGPL-2+
 
-Files: COPYING.GPL3
-Copyright: 2007, Free Software Foundation, Inc. <http://fsf.org/>
-License: GPL-3+
-
-Files: COPYING.LIB
-Copyright: 1991-1999, Free Software Foundation, Inc
-License: LGPL-2.1+
+Files: src/css/parser.cpp
+Copyright: 2003, Apple Computer
+           2003, Dirk Mueller <mueller@kde.org>
+           1984-2012, Free Software Foundation, Inc
+           2008, Germain Garand <germain@ebooksfrance.org>
+           2002-2003, Lars Knoll <knoll@kde.org>
+License: GPL-3+_BisonException_and_LGPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, you may create a larger work that contains
+ part or all of the Bison parser skeleton and distribute that work
+ under terms of your choice, so long as that work isn't itself a
+ parser generator using the skeleton or a modified version thereof
+ as a parser skeleton.  Alternatively, if you modify or redistribute
+ the parser skeleton itself, you may (at your option) remove this
+ special exception, which will cause the skeleton and the resulting
+ Bison output files to be licensed under the GNU General Public
+ License without this special exception.
+ .
+ This special exception was added by the Free Software Foundation in
+ version 2.2 of Bison.
+ .
+ .....
+ .
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ The complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3', likewise, the complete text of the GNU
+ Library General Public License version 2 can be found in
+ `/usr/share/common-licenses/LGPL-2'.
 
 Files: po/bg/khtml5.po
 Copyright: 2009-2013, Yasen Pramatarov <yasen@lindeas.com>
@@ -569,6 +610,49 @@ License: BSD-3-clause
  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+License: BSD-2-clause_or_LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ Portions of this code are (c) by Apple Computer, Inc. and were licensed
+ under the following terms:
+ .
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+ .
+   1. Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ .
+   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+   IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+   OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+   INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+   NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+   THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -593,41 +677,39 @@ License: GPL
  On Debian systems, the complete text of the GNU General Public License can be
  found in `/usr/share/common-licenses/GPL'.
 
-License: GPL-2
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
+License: GPL-2_or_LGPL-2.1+_or_MPL-1.1
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
+ version 2.1 of the License, or (at your option) any later version.
  .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
  .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
-
-License: MPL-1.1
- The contents of this package are subject to the Mozilla Public License
- Version 1.1 (the "License"); you may not use this file except in
- compliance with the License. You may obtain a copy of the License at
- http://www.mozilla.org/MPL/
+ Alternatively, the contents of this file may be used under the terms
+ of either the Mozilla Public License Version 1.1, found at
+ http://www.mozilla.org/MPL/ (the "MPL") or the GNU General Public
+ License Version 2.0, found at http://www.fsf.org/copyleft/gpl.html
+ (the "GPL"), in which case the provisions of the MPL or the GPL are
+ applicable instead of those above.  If you wish to allow use of your
+ version of this file only under the terms of one of those two
+ licenses (the MPL or the GPL) and not to allow others to use your
+ version of this file under the LGPL, indicate your decision by
+ deletingthe provisions above and replace them with the notice and
+ other provisions required by the MPL or the GPL, as the case may be.
+ If you do not delete the provisions above, a recipient may use your
+ version of this file under any of the LGPL, the MPL or the GPL.
  .
- Software distributed under the License is distributed on an "AS IS"
- basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
- License for the specific language governing rights and limitations
- under the License.
- .
- The complete text of the Mozilla Public Lecense version 1.1 can be found
- at "http://www.mozilla.org/MPL/MPL-1.1.html"
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1",
+ likewise, the complete text of the GNU General Public License version 2 can
+ be found in "/usr/share/common-licenses/GPL-2".
 
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
@@ -734,3 +816,48 @@ License: LGPL-2.1+3+KDEeV
  License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1",
  likewise, the complete text of the GNU Lesser General Public License version
  3 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: BSD-3-clause_or_LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ The code for ClassNodeListImpl was originally licensed under the following terms
+ (but in this version is available only as above):
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+ .
+     1.  Redistributions of source code must retain the above copyright
+         notice, this list of conditions and the following disclaimer.
+     2.  Redistributions in binary form must reproduce the above copyright
+         notice, this list of conditions and the following disclaimer in the
+         documentation and/or other materials provided with the distribution.
+     3.  Neither the name of Apple Computer, Inc. ("Apple") nor the names of
+         its contributors may be used to endorse or promote products derived
+         from this software without specific prior written permission.
+ .
+     THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND ANY
+     EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     DISCLAIMED. IN NO EVENT SHALL APPLE OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+     DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+     ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+     THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".

@@ -5,34 +5,34 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               kio-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               kio-dev (>= 5.25.0~),
                libgif-dev,
                libjpeg-dev,
-               libkf5archive-dev (>= 5.19.0~),
-               libkf5codecs-dev (>= 5.19.0~),
-               libkf5globalaccel-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
-               libkf5iconthemes-dev (>= 5.19.0~),
-               libkf5kjs-dev (>= 5.19.0~),
-               libkf5notifications-dev (>= 5.19.0~),
-               libkf5parts-dev (>= 5.19.0~),
-               libkf5sonnet-dev (>= 5.19.0~),
-               libkf5textwidgets-dev (>= 5.19.0~),
-               libkf5wallet-dev (>= 5.19.0~),
-               libkf5widgetsaddons-dev (>= 5.19.0~),
-               libkf5windowsystem-dev (>= 5.19.0~),
-               libkf5xmlgui-dev (>= 5.19.0~),
+               libkf5archive-dev (>= 5.25.0~),
+               libkf5codecs-dev (>= 5.25.0~),
+               libkf5globalaccel-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
+               libkf5iconthemes-dev (>= 5.25.0~),
+               libkf5kjs-dev (>= 5.25.0~),
+               libkf5notifications-dev (>= 5.25.0~),
+               libkf5parts-dev (>= 5.25.0~),
+               libkf5sonnet-dev (>= 5.25.0~),
+               libkf5textwidgets-dev (>= 5.25.0~),
+               libkf5wallet-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
+               libkf5windowsystem-dev (>= 5.25.0~),
+               libkf5xmlgui-dev (>= 5.25.0~),
                libphonon4qt5-dev (>= 4:4.6.0),
                libphonon4qt5experimental-dev (>= 4:4.6.0),
                libpng-dev,
-               libqt5x11extras5-dev (>= 5.4),
+               libqt5x11extras5-dev (>= 5.5.0~),
                libssl-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
+               qtbase5-dev (>= 5.5.0~),
                zlib1g-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/khtml
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/khtml.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/khtml.git
@@ -40,26 +40,27 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/khtml.git
 Package: libkf5khtml-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.19.0~),
-         libkf5archive-dev (>= 5.19.0~),
-         libkf5globalaccel-dev (>= 5.19.0~),
-         libkf5i18n-dev (>= 5.19.0~),
-         libkf5iconthemes-dev (>= 5.19.0~),
+Depends: kio-dev (>= 5.25.0~),
+         libkf5archive-dev (>= 5.25.0~),
+         libkf5globalaccel-dev (>= 5.25.0~),
+         libkf5i18n-dev (>= 5.25.0~),
+         libkf5iconthemes-dev (>= 5.25.0~),
          libkf5khtml5 (= ${binary:Version}),
-         libkf5kjs-dev (>= 5.19.0~),
-         libkf5notifications-dev (>= 5.19.0~),
-         libkf5parts-dev (>= 5.19.0~),
-         libkf5sonnet-dev (>= 5.19.0~),
-         libkf5wallet-dev (>= 5.19.0~),
-         libkf5widgetsaddons-dev (>= 5.19.0~),
-         libkf5windowsystem-dev (>= 5.19.0~),
-         qtbase5-dev (>= 5.4),
+         libkf5kjs-dev (>= 5.25.0~),
+         libkf5notifications-dev (>= 5.25.0~),
+         libkf5parts-dev (>= 5.25.0~),
+         libkf5sonnet-dev (>= 5.25.0~),
+         libkf5wallet-dev (>= 5.25.0~),
+         libkf5widgetsaddons-dev (>= 5.25.0~),
+         libkf5windowsystem-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
  .
  Contains development files for khtml.
+Breaks: libkf5kdelibs4support-dev (<< 5.25)
 
 Package: libkf5khtml-bin
 Architecture: any
