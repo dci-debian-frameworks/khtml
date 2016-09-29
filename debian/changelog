@@ -1,11 +1,13 @@
-khtml (5.26.0-1~1.gbp6b6dd5) UNRELEASED; urgency=medium
+khtml (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @6b6dd5181937365d18e22c44e98665490c505c0e **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:54:21 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:03:57 +0200
 
 khtml (5.25.0-1) unstable; urgency=medium
 
