@@ -1,4 +1,4 @@
-khtml (5.28.0-2~) UNRELEASED; urgency=medium
+khtml (5.28.0-2) unstable; urgency=medium
 
   * Change libssl-dev build dependency to libssl1.0-dev to follow qt5.
     Thanks to Sebastian Andrzej Siewior for reporting and many others for the
@@ -10,7 +10,7 @@ khtml (5.28.0-2~) UNRELEASED; urgency=medium
   * Add new upstream patch:
     Error-page-correctly-load-the-image-with-a-real-URL.patch
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Apr 2017 11:06:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Apr 2017 12:46:47 +0200
 
 khtml (5.28.0-1) unstable; urgency=medium
 
