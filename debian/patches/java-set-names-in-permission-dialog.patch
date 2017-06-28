@@ -1,0 +1,34 @@
+From: Pino Toscano <pino@kde.org>
+Date: Sat, 26 Nov 2016 09:12:18 +0100
+Subject: java: set names in permission dialog
+
+This makes sure the reply from the user is used and sent back.
+---
+ src/java/kjavaappletserver.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/java/kjavaappletserver.cpp b/src/java/kjavaappletserver.cpp
+index 39d43f3..7ddb48f 100644
+--- a/src/java/kjavaappletserver.cpp
++++ b/src/java/kjavaappletserver.cpp
+@@ -826,16 +826,20 @@ QString PermissionDialog::exec(const QString &cert, const QString &perm)
+     buttonLayout->setObjectName("buttonLayout");
+ 
+     QPushButton *const no = new QPushButton(i18n("&No"), dialog);
++    no->setObjectName("no");
+     no->setDefault(true);
+     buttonLayout->addWidget(no);
+ 
+     QPushButton *const reject = new QPushButton(i18n("&Reject All"), dialog);
++    no->setObjectName("reject");
+     buttonLayout->addWidget(reject);
+ 
+     QPushButton *const yes = new QPushButton(i18n("&Yes"), dialog);
++    no->setObjectName("yes");
+     buttonLayout->addWidget(yes);
+ 
+     QPushButton *const grant = new QPushButton(i18n("&Grant All"), dialog);
++    no->setObjectName("grant");
+     buttonLayout->addWidget(grant);
+     dialogLayout->addLayout(buttonLayout);
+     dialog->resize(dialog->minimumSizeHint());

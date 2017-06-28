@@ -40,6 +40,20 @@ khtml (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:07:30 +0000
 
+khtml (5.28.0-2) unstable; urgency=medium
+
+  * Change libssl-dev build dependency to libssl1.0-dev to follow qt5.
+    Thanks to Sebastian Andrzej Siewior for reporting and many others for the
+    follow ups
+    (Closes: 856004)
+  * Add upstream patches for the java permission dialog:
+    java-set-names-in-permission-dialog.patch
+    java-apply-the-names-to-the-right-buttons.patch
+  * Add new upstream patch:
+    Error-page-correctly-load-the-image-with-a-real-URL.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Apr 2017 12:46:47 +0200
+
 khtml (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
