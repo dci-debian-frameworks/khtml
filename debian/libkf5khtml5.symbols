@@ -1,5 +1,20 @@
-# SymbolsHelper-Confirmed: 5.27.0 arm64
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
+ _ZN10KHTMLImage11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.35.0
+ _ZN10KHTMLImage11qt_metacastEPKc@Base 5.35.0
+ _ZN10KHTMLImage12disposeImageEv@Base 5.35.0
+ _ZN10KHTMLImage13slotPopupMenuERK6QPointRK4QUrljRKN6KParts16OpenUrlArgumentsERKNS6_16BrowserArgumentsE6QFlagsINS6_16BrowserExtension9PopupFlagEERK4QMapI7QString5QListIP7QActionEE@Base 5.35.0
+ _ZN10KHTMLImage14notifyFinishedEPN5khtml12CachedObjectE@Base 5.35.0
+ _ZN10KHTMLImage16guiActivateEventEPN6KParts16GUIActivateEventE@Base 5.35.0
+ _ZN10KHTMLImage16staticMetaObjectE@Base 5.35.0
+ _ZN10KHTMLImage21restoreScrollPositionEv@Base 5.35.0
+ _ZN10KHTMLImage7openUrlERK4QUrl@Base 5.35.0
+ _ZN10KHTMLImage8closeUrlEv@Base 5.35.0
+ _ZN10KHTMLImageC1EP7QWidgetP7QObjectRK5QListI8QVariantE@Base 5.35.0
+ _ZN10KHTMLImageC2EP7QWidgetP7QObjectRK5QListI8QVariantE@Base 5.35.0
+ _ZN10KHTMLImageD0Ev@Base 5.35.0
+ _ZN10KHTMLImageD1Ev@Base 5.35.0
+ _ZN10KHTMLImageD2Ev@Base 5.35.0
  _ZN10KSSLKeyGen10setKeySizeEi@Base 4.96.0
  _ZN10KSSLKeyGen11generateCSRERK7QStringS2_ii@Base 4.96.0
  _ZN10KSSLKeyGen11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -55,16 +70,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN13KHTMLSettingsD0Ev@Base 4.96.0
  _ZN13KHTMLSettingsD1Ev@Base 4.96.0
  _ZN13KHTMLSettingsD2Ev@Base 4.96.0
- _ZN17KHTMLImageFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN17KHTMLImageFactory11qt_metacastEPKc@Base 4.96.0
- _ZN17KHTMLImageFactory11s_aboutDataE@Base 4.96.0
- _ZN17KHTMLImageFactory16staticMetaObjectE@Base 4.96.0
- _ZN17KHTMLImageFactory6createEPKcP7QWidgetP7QObjectRK5QListI8QVariantERK7QString@Base 4.96.0
- _ZN17KHTMLImageFactoryC1Ev@Base 4.96.0
- _ZN17KHTMLImageFactoryC2Ev@Base 4.96.0
- _ZN17KHTMLImageFactoryD0Ev@Base 4.96.0
- _ZN17KHTMLImageFactoryD1Ev@Base 4.96.0
- _ZN17KHTMLImageFactoryD2Ev@Base 4.96.0
  _ZN3DOM10MouseEvent14initMouseEventERKNS_9DOMStringEbbRKNS_12AbstractViewElllllbbbbtRKNS_4NodeE@Base 4.96.0
  _ZN3DOM10MouseEventC1EPNS_14MouseEventImplE@Base 4.96.0
  _ZN3DOM10MouseEventC1ERKNS_5EventE@Base 4.96.0
@@ -1876,6 +1881,13 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN5khtml17DrawContentsEventD1Ev@Base 4.96.0
  _ZN5khtml17DrawContentsEventD2Ev@Base 4.96.0
  _ZN5khtml17MouseReleaseEvent22s_strMouseReleaseEventE@Base 4.96.0
+ _ZN5khtml18CachedObjectClient12updatePixmapERK5QRectPNS_11CachedImageE@Base 5.35.0
+ _ZN5khtml18CachedObjectClient13setStyleSheetERKN3DOM9DOMStringES4_S4_S4_@Base 5.35.0
+ _ZN5khtml18CachedObjectClient14notifyFinishedEPNS_12CachedObjectE@Base 5.35.0
+ _ZN5khtml18CachedObjectClient5errorEiRK7QString@Base 5.35.0
+ _ZN5khtml18CachedObjectClientD0Ev@Base 5.35.0
+ _ZN5khtml18CachedObjectClientD1Ev@Base 5.35.0
+ _ZN5khtml18CachedObjectClientD2Ev@Base 5.35.0
  _ZN5khtml21MouseDoubleClickEvent26s_strMouseDoubleClickEventE@Base 4.96.0
  _ZN5khtml5Cache4initEv@Base 4.96.0
  _ZN5khtml5Cache5clearEv@Base 4.96.0
@@ -2237,12 +2249,12 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN9KHTMLViewD0Ev@Base 4.96.0
  _ZN9KHTMLViewD1Ev@Base 4.96.0
  _ZN9KHTMLViewD2Ev@Base 4.96.0
+ _ZNK10KHTMLImage10metaObjectEv@Base 5.35.0
  _ZNK10KSSLKeyGen10metaObjectEv@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 5.27.0
  (optional=external|arch=!armel !armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
@@ -2292,7 +2304,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK13KHTMLSettings9hoverLinkEv@Base 4.96.0
  _ZNK13KHTMLSettings9linkColorEv@Base 4.96.0
  _ZNK13KHTMLSettings9textColorEv@Base 4.96.0
- _ZNK17KHTMLImageFactory10metaObjectEv@Base 4.96.0
  _ZNK3DOM10MouseEvent13relatedTargetEv@Base 4.96.0
  _ZNK3DOM10MouseEvent6altKeyEv@Base 4.96.0
  _ZNK3DOM10MouseEvent6buttonEv@Base 4.96.0
@@ -2972,9 +2983,9 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK9KHTMLView9mediaTypeEv@Base 4.96.0
  _ZNK9KHTMLView9pagedModeEv@Base 4.96.0
  _ZNK9KHTMLView9zoomLevelEv@Base 4.96.0
+ _ZTI10KHTMLImage@Base 5.35.0
  _ZTI10KSSLKeyGen@Base 4.96.0
  _ZTI13KHTMLSettings@Base 4.96.0
- _ZTI17KHTMLImageFactory@Base 4.96.0
  _ZTI9KHTMLPart@Base 4.96.0
  _ZTI9KHTMLView@Base 4.96.0
  _ZTIN14WTFNoncopyable11NoncopyableE@Base 4.96.0
@@ -3074,11 +3085,12 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTIN5khtml15MousePressEventE@Base 4.96.0
  _ZTIN5khtml17DrawContentsEventE@Base 4.96.0
  _ZTIN5khtml17MouseReleaseEventE@Base 4.96.0
+ _ZTIN5khtml18CachedObjectClientE@Base 5.35.0
  _ZTIN5khtml21MouseDoubleClickEventE@Base 4.96.0
  _ZTIN6KParts21HtmlSettingsInterfaceE@Base 4.96.0
+ _ZTS10KHTMLImage@Base 5.35.0
  _ZTS10KSSLKeyGen@Base 4.96.0
  _ZTS13KHTMLSettings@Base 4.96.0
- _ZTS17KHTMLImageFactory@Base 4.96.0
  _ZTS9KHTMLPart@Base 4.96.0
  _ZTS9KHTMLView@Base 4.96.0
  _ZTSN14WTFNoncopyable11NoncopyableE@Base 4.96.0
@@ -3178,12 +3190,14 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTSN5khtml15MousePressEventE@Base 4.96.0
  _ZTSN5khtml17DrawContentsEventE@Base 4.96.0
  _ZTSN5khtml17MouseReleaseEventE@Base 4.96.0
+ _ZTSN5khtml18CachedObjectClientE@Base 5.35.0
  _ZTSN5khtml21MouseDoubleClickEventE@Base 4.96.0
  _ZTSN6KParts21HtmlSettingsInterfaceE@Base 4.96.0
+ _ZTT10KHTMLImage@Base 5.35.0
  _ZTT9KHTMLPart@Base 4.96.0
+ _ZTV10KHTMLImage@Base 5.35.0
  _ZTV10KSSLKeyGen@Base 4.96.0
  _ZTV13KHTMLSettings@Base 4.96.0
- _ZTV17KHTMLImageFactory@Base 4.96.0
  _ZTV9KHTMLPart@Base 4.96.0
  _ZTV9KHTMLView@Base 4.96.0
  _ZTVN3DOM10MouseEventE@Base 4.96.0
@@ -3281,9 +3295,13 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZTVN5khtml15MousePressEventE@Base 4.96.0
  _ZTVN5khtml17DrawContentsEventE@Base 4.96.0
  _ZTVN5khtml17MouseReleaseEventE@Base 4.96.0
+ _ZTVN5khtml18CachedObjectClientE@Base 5.35.0
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4.96.0
  _ZZZN10KAboutDataC4ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.18.0
+ (c++)"non-virtual thunk to KHTMLImage::notifyFinished(khtml::CachedObject*)@Base" 5.35.0
+ (c++)"non-virtual thunk to KHTMLImage::~KHTMLImage()@Base" 5.35.0
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4.96.0
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4.96.0
  (c++)"non-virtual thunk to KSSLKeyGen::~KSSLKeyGen()@Base" 4.96.0
+ (c++)"virtual thunk to KHTMLImage::~KHTMLImage()@Base" 5.35.0
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4.96.0
