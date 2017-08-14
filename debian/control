@@ -62,7 +62,7 @@ Description: HTML widget and component
  using KJS for JavaScript support.
  .
  Contains development files for khtml.
-Breaks: libkf5kdelibs4support-dev (<< 5.36)
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: libkf5khtml-bin
 Architecture: any
