@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KHTMLImage11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.35.0
  _ZN10KHTMLImage11qt_metacastEPKc@Base 5.35.0
@@ -1841,6 +1841,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4.96.0
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4.96.0
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4.96.0
+ _ZN3KJS4List6appendEPNS_7JSValueE@Base 5.37.0
  (optional=external|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD0Ev@Base 5.24.0
  (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD1Ev@Base 5.24.0
@@ -2254,7 +2255,8 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst|arch=!amd64 !arm64)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 5.37.0
  (optional=external|arch=!armel !armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
