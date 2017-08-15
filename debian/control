@@ -33,11 +33,34 @@ Build-Depends: cmake (>= 3.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-               zlib1g-dev
+               zlib1g-dev,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/khtml
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/khtml.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/khtml.git
+
+Package: libkf5khtml-bin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Description: HTML widget and component
+ KHTML is a web rendering engine, based on the KParts technology and
+ using KJS for JavaScript support.
+ .
+ This package contains the runtime files.
+
+Package: libkf5khtml-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5khtml5-data
+Replaces: libkf5khtml5-data
+Description: HTML widget and component
+ KHTML is a web rendering engine, based on the KParts technology and
+ using KJS for JavaScript support.
+ .
+ This package contains the translations and data files.
 
 Package: libkf5khtml-dev
 Section: libdevel
@@ -56,7 +79,7 @@ Depends: kio-dev (>= 5.26.0~),
          libkf5widgetsaddons-dev (>= 5.37.0~),
          libkf5windowsystem-dev (>= 5.37.0~),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
@@ -64,36 +87,13 @@ Description: HTML widget and component
  Contains development files for khtml.
 Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
-Package: libkf5khtml-bin
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
-Description: HTML widget and component
- KHTML is a web rendering engine, based on the KParts technology and
- using KJS for JavaScript support.
- .
- This package contains the runtime files.
-
 Package: libkf5khtml5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5khtml-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: libkf5khtml-bin (= ${binary:Version})
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
-
-Package: libkf5khtml-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5khtml5-data
-Replaces: libkf5khtml5-data
-Description: HTML widget and component
- KHTML is a web rendering engine, based on the KParts technology and
- using KJS for JavaScript support.
- .
- This package contains the translations and data files.
