@@ -41,8 +41,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/khtml.git
 Package: libkf5khtml-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: libkf5khtml5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
@@ -53,8 +51,6 @@ Package: libkf5khtml-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5khtml5-data
-Replaces: libkf5khtml5-data
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
