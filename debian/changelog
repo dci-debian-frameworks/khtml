@@ -2,6 +2,7 @@ khtml (5.37.0-3) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols file.
+  * Drop obsolete kio-dev build dependency (libkf5kio-dev is already there).
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 11:15:35 +0200
 
