@@ -1,6 +1,6 @@
-khtml (5.37.0-3) UNRELEASED; urgency=medium
+khtml (5.37.0-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update symbols file.
   * Drop obsolete kio-dev build dependency (libkf5kio-dev is already there).
   * Drop obsolete breaks/replaces for old versions, or for packages never part
@@ -8,7 +8,7 @@ khtml (5.37.0-3) UNRELEASED; urgency=medium
   * Replace kio-dev dependency with libkf5kio-dev.
   * Remove unused ${shlibs:Depends} substvar from libkf5khtml-data.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 11:15:35 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 01 Oct 2017 11:53:30 +0200
 
 khtml (5.37.0-2) sid; urgency=medium
 
