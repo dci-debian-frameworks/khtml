@@ -5,6 +5,7 @@ khtml (5.37.0-3) UNRELEASED; urgency=medium
   * Drop obsolete kio-dev build dependency (libkf5kio-dev is already there).
   * Drop obsolete breaks/replaces for old versions, or for packages never part
     of Debian.
+  * Replace kio-dev dependency with libkf5kio-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 11:15:35 +0200
 
