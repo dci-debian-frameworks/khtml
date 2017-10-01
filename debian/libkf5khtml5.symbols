@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 5.37.0-1 amd64 i386
+# SymbolsHelper-Confirmed: 5.37.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN10KHTMLImage11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.35.0
  _ZN10KHTMLImage11qt_metacastEPKc@Base 5.35.0
  _ZN10KHTMLImage12disposeImageEv@Base 5.35.0
- _ZN10KHTMLImage13slotPopupMenuERK6QPointRK4QUrljRKN6KParts16OpenUrlArgumentsERKNS6_16BrowserArgumentsE6QFlagsINS6_16BrowserExtension9PopupFlagEERK4QMapI7QString5QListIP7QActionEE@Base 5.35.0
+ (arch=!kfreebsd-any)_ZN10KHTMLImage13slotPopupMenuERK6QPointRK4QUrljRKN6KParts16OpenUrlArgumentsERKNS6_16BrowserArgumentsE6QFlagsINS6_16BrowserExtension9PopupFlagEERK4QMapI7QString5QListIP7QActionEE@Base 5.37.0
+ (arch=kfreebsd-any)_ZN10KHTMLImage13slotPopupMenuERK6QPointRK4QUrltRKN6KParts16OpenUrlArgumentsERKNS6_16BrowserArgumentsE6QFlagsINS6_16BrowserExtension9PopupFlagEERK4QMapI7QString5QListIP7QActionEE@Base 5.37.0
  _ZN10KHTMLImage14notifyFinishedEPN5khtml12CachedObjectE@Base 5.35.0
  _ZN10KHTMLImage16guiActivateEventEPN6KParts16GUIActivateEventE@Base 5.35.0
  _ZN10KHTMLImage16staticMetaObjectE@Base 5.35.0
@@ -2254,8 +2255,9 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK10KSSLKeyGen10metaObjectEv@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst|arch=!amd64 !arm64 !kfreebsd-amd64 !x32)_ZNK12KConfigGroup9readEntryIbEET_RK7QStringRKS1_@Base 5.37.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst|arch=!amd64 !arm64 !kfreebsd-amd64 !x32)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 5.37.0
  (optional=external|arch=!armel !armhf)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
@@ -2887,7 +2889,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK3KJS7JSValue8toNumberEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4.96.0
  (optional=external)_ZNK3KJS7JSValue9getNumberERd@Base 5.13.0
- (optional=external|arch=kfreebsd-i386)_ZNK3KJS7JSValue9getNumberEv@Base 5.13.0
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7UString7qstringEv@Base 4.96.0
  _ZNK3KJS7UString9domStringEv@Base 4.96.0
