@@ -1,8 +1,9 @@
-khtml (5.38.0-1~) UNRELEASED; urgency=medium
+khtml (5.41.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.38.0).
+  * New upstream release (5.41.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 16:40:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 09:12:41 -0300
 
 khtml (5.37.0-3) unstable; urgency=medium
 
