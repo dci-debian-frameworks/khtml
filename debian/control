@@ -60,12 +60,12 @@ Description: HTML widget and component
 Package: libkf5khtml-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         libkf5archive-dev (>= 5.41.0~),
+Depends: libkf5archive-dev (>= 5.41.0~),
          libkf5globalaccel-dev (>= 5.41.0~),
          libkf5i18n-dev (>= 5.41.0~),
          libkf5iconthemes-dev (>= 5.41.0~),
          libkf5khtml5 (= ${binary:Version}),
+         libkf5kio-dev (>= 5.26.0~),
          libkf5kjs-dev (>= 5.41.0~),
          libkf5notifications-dev (>= 5.41.0~),
          libkf5parts-dev (>= 5.41.0~),
